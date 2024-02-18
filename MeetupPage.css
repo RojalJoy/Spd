@@ -1,0 +1,59 @@
+body,html{
+    font-size: 22px;
+    /* background-image: url("background.jpg") ;
+    background-size: 100%; */
+}
+
+.feedback{
+    position: absolute;
+    border-radius: 20px;
+    background-image: url("background_meetup.jpg");
+    background-size: 100%;
+    padding: 20px;
+}
+
+.feed{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start; /* Align the flexbox to the end (right) */
+    align-items: center; /* Center items vertically */
+    height: 80vh;
+}
+
+.dog{
+    position: absolute;
+    height: 80%;
+    width: auto;
+    left: 0;
+}
+
+.vector-up {
+    position: absolute;
+    height: 85%;
+    width: auto;
+    left: 0;
+}
+
+.vector-below{
+    position: absolute;
+    height: 90%;
+    width: auto;
+    left: 0;
+}
+
+.head{
+    top: 70%;
+    left: 10%;
+    position: absolute;
+}
+
+.meet{
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .feedback {
+        width: 40%;
+    }
+}

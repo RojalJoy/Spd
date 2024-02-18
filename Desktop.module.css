@@ -1,0 +1,953 @@
+.catDogFootPrints1,
+.catDogFootPrints2,
+.catDogFootPrints21,
+.catDogFootPrints22 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1440px;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.catDogFootPrints2,
+.catDogFootPrints21,
+.catDogFootPrints22 {
+  top: 1440px;
+}
+.catDogFootPrints21,
+.catDogFootPrints22 {
+  top: 2880px;
+}
+.catDogFootPrints22 {
+  top: 4320px;
+}
+.aboutUsChild,
+.bg {
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+.bg {
+  left: calc(50% - 720px);
+  height: 5760px;
+}
+.aboutUsChild {
+  left: 102px;
+  background-color: var(--color-gray);
+  height: 863px;
+}
+.aboutUsItem,
+.doggo1Icon {
+  position: absolute;
+  top: 582px;
+  left: 0;
+  width: 701px;
+  height: 281px;
+  object-fit: contain;
+}
+.doggo1Icon {
+  top: 260px;
+  left: 199px;
+  width: 420px;
+  height: 603px;
+  object-fit: cover;
+}
+.bookYoursAnd {
+  letter-spacing: 0.31em;
+}
+.span {
+  letter-spacing: 0.14em;
+}
+.bookYoursAndYour {
+  margin: 0;
+}
+.petsStayWithUsToday {
+  margin: 0;
+  font-size: 55px;
+  color: var(--color-lightcoral);
+}
+.bookYoursAndContainer {
+  position: absolute;
+  top: 692px;
+  left: 602px;
+  text-transform: uppercase;
+  text-shadow: 2px 0 0#f5f5f5, 0 2px 0#f5f5f5, -2px 0 0#f5f5f5, 0-2px 0#f5f5f5;
+}
+.aboutUsInner,
+.rectangleIcon {
+  position: absolute;
+  top: 59px;
+  left: 602px;
+  border-radius: var(--br-20xl);
+  width: 790px;
+  height: 545.9px;
+  object-fit: contain;
+}
+.rectangleIcon {
+  top: 81.5px;
+  left: 618px;
+  width: 758px;
+  height: 501px;
+}
+.threeDotsIcon {
+  position: absolute;
+  top: 518px;
+  left: 981px;
+  width: 74px;
+  height: 12px;
+}
+.petitePetsParadiseContainer {
+  position: absolute;
+  top: 159px;
+  left: 774px;
+  font-size: 18px;
+  letter-spacing: 0.14em;
+  font-family: var(--font-manjari);
+  color: var(--color-dimgray-100);
+  text-align: justify;
+  display: inline-block;
+  width: 517px;
+  height: 391px;
+}
+.vectorIcon {
+  position: absolute;
+  top: 91.7px;
+  left: 317.2px;
+  width: 242.5px;
+  height: 134.3px;
+}
+.aboutUs1 {
+  position: absolute;
+  top: 117px;
+  left: 304px;
+  font-size: var(--font-size-51xl);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-khaki);
+  text-shadow: 2px 2px 1px #000;
+}
+.aboutUs,
+.findUsHereChild {
+  position: absolute;
+  top: 3284px;
+  left: -102px;
+  width: 1542px;
+  height: 863px;
+}
+.findUsHereChild {
+  top: 169px;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 1440px;
+  height: 914px;
+}
+.findUsHereItem,
+.magnifyingGlass1 {
+  position: absolute;
+  top: 0;
+  left: 1054px;
+  width: 791px;
+  height: 771.7px;
+  object-fit: contain;
+}
+.magnifyingGlass1 {
+  top: 47.6px;
+  left: 876px;
+  width: 606.7px;
+  height: 607px;
+}
+.findUsHereInner {
+  position: absolute;
+  top: 244.6px;
+  left: 138px;
+  width: 702px;
+  height: 674px;
+}
+.here {
+  margin: 0;
+  font-size: 151px;
+}
+.findUsHereContainer {
+  position: absolute;
+  top: 244.6px;
+  left: 958.6px;
+  letter-spacing: 0.14em;
+  line-height: 94.64%;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #4b515e;
+  transform: rotate(19.8deg);
+  transform-origin: 0 0;
+  font-size: var(--font-size-81xl);
+}
+.socialMediaChild {
+  position: absolute;
+  top: 32.4px;
+  left: 0;
+  border-radius: 17px;
+  width: 451px;
+  height: 150px;
+}
+.socialMediaItem {
+  position: absolute;
+  top: 0;
+  left: 239px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-dimgray-100);
+  width: 212px;
+  height: 45px;
+}
+.getSocial,
+.tagUsIn {
+  position: absolute;
+  letter-spacing: 0.14em;
+}
+.getSocial {
+  top: 11px;
+  left: 260px;
+  text-transform: uppercase;
+}
+.tagUsIn {
+  top: 149.4px;
+  left: 65px;
+}
+.facebook,
+.instagram,
+.layer4 {
+  text-decoration: none;
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 62px;
+  height: 62px;
+  background-image: url(/public/facebook@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.instagram,
+.layer4 {
+  top: 10px;
+  left: 126px;
+  height: 63px;
+  background-image: url(/public/instagram@3x.png);
+}
+.layer4 {
+  top: 0;
+  left: 256px;
+  width: 83px;
+  height: 83px;
+  background-image: url(/public/layer-4@3x.png);
+}
+.socialIcons,
+.socialMedia {
+  position: absolute;
+  top: 58px;
+  left: 54px;
+  width: 339px;
+  height: 83px;
+}
+.socialMedia {
+  top: 719.6px;
+  left: 772px;
+  width: 451px;
+  height: 182.4px;
+  color: var(--color-khaki);
+  font-family: var(--font-manjari);
+}
+.petitePetsParadiseContainer1 {
+  position: absolute;
+  top: 0;
+  left: 163px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.div,
+.petitepetsparadisegmailcom {
+  position: absolute;
+  top: 172.6px;
+  left: 163px;
+  letter-spacing: 0.14em;
+}
+.div {
+  top: 299px;
+  text-transform: uppercase;
+}
+.locationIcon {
+  position: absolute;
+  top: 7.1px;
+  left: 64px;
+  width: 70px;
+  height: 92.8px;
+  object-fit: cover;
+}
+.mail,
+.phone {
+  text-decoration: none;
+  position: absolute;
+  top: 82.6px;
+  left: 0;
+  width: 197px;
+  height: 195.9px;
+  background-image: url(/public/mail@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.phone {
+  top: 272px;
+  left: 64px;
+  width: 70px;
+  height: 70px;
+  background-image: url(/public/phone@3x.png);
+}
+.informationDetails {
+  position: absolute;
+  top: 455px;
+  left: 154px;
+  width: 613px;
+  height: 342px;
+  color: var(--color-black);
+  font-family: var(--font-manjari);
+}
+.contactUs {
+  position: absolute;
+  top: 309px;
+  left: 252px;
+  font-size: var(--font-size-51xl);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-lightsalmon);
+  text-shadow: 2px 2px 1px #000;
+}
+.findUsHere {
+  position: absolute;
+  top: 3978px;
+  left: 0;
+  width: 1845.1px;
+  height: 1083px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-lightcoral);
+}
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1621.5px;
+  height: 142.8px;
+}
+.yourFurryFriends {
+  position: absolute;
+  top: 79px;
+  left: calc(50% - 483.75px);
+  letter-spacing: 0.14em;
+}
+.footer {
+  position: absolute;
+  top: 4954px;
+  left: -67px;
+  width: 1621.5px;
+  height: 142.8px;
+  font-size: 40px;
+  color: var(--color-lightcoral);
+}
+.weCareAboutChild {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  background-color: var(--color-gray);
+  width: 1440px;
+  height: 863px;
+}
+.weCareAbout1 {
+  position: absolute;
+  top: 183.9px;
+  left: 0;
+  width: 706px;
+  height: 698.1px;
+  object-fit: contain;
+}
+.titleChild {
+  position: absolute;
+  top: 0;
+  left: 209px;
+  border-radius: 50%;
+  background-color: var(--color-lightcoral);
+  width: 431px;
+  height: 431px;
+}
+.weCareAboutContainer {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  letter-spacing: 0.14em;
+  line-height: 84px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #8eb8c6;
+}
+.title {
+  position: absolute;
+  top: 93px;
+  left: 652px;
+  width: 640px;
+  height: 431px;
+}
+.contentChild,
+.contentItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-20xl);
+  width: 664.2px;
+  height: 459px;
+  object-fit: contain;
+}
+.contentItem {
+  top: 19px;
+  left: 13px;
+  width: 638px;
+  height: 421px;
+}
+.threeDotsIcon1 {
+  position: absolute;
+  top: 362px;
+  left: 295px;
+  width: 74px;
+  height: 12px;
+}
+.yearsAsRestaurantContainer {
+  position: absolute;
+  top: 75px;
+  left: 129px;
+  letter-spacing: 0.14em;
+  display: inline-block;
+  width: 455px;
+  height: 391px;
+}
+.content {
+  position: absolute;
+  top: 344px;
+  left: 624px;
+  width: 664.2px;
+  height: 466px;
+  text-align: justify;
+  font-size: 22px;
+  font-family: var(--font-manjari);
+}
+.weCareAbout {
+  position: absolute;
+  top: 2421px;
+  left: -9px;
+  width: 1449px;
+  height: 882px;
+  text-align: right;
+  font-size: var(--font-size-61xl);
+  color: var(--color-dimgray-100);
+}
+.whyUsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 1440px;
+  height: 863px;
+}
+.whyUsImage {
+  position: absolute;
+  top: 126.4px;
+  left: 697px;
+  width: 742px;
+  height: 737px;
+  object-fit: cover;
+}
+.contentChild1,
+.contentInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-20xl);
+  width: 730px;
+  height: 459px;
+  object-fit: contain;
+}
+.contentChild1 {
+  top: 19px;
+  left: 14px;
+  width: 702px;
+  height: 421px;
+}
+.threeDotsIcon2 {
+  position: absolute;
+  top: 356px;
+  left: 322px;
+  width: 74px;
+  height: 12px;
+}
+.expertiseAndExperienceContainer {
+  position: absolute;
+  top: 86px;
+  left: 134px;
+  letter-spacing: 0.14em;
+  display: inline-block;
+  width: 544px;
+  height: 391px;
+}
+.content1 {
+  position: absolute;
+  top: 296px;
+  left: 107px;
+  width: 730px;
+  height: 477px;
+  font-family: var(--font-manjari);
+}
+.vacationToo {
+  margin: 0;
+  font-size: 86px;
+}
+.yourPetDeservesContainer {
+  position: absolute;
+  top: 683px;
+  left: 269px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8eb8c6;
+  text-shadow: 2px 0 0#fffdfd, 0 2px 0#fffdfd, -2px 0 0#fffdfd, 0-2px 0#fffdfd;
+  font-size: var(--font-size-41xl);
+}
+.titleItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  width: 339px;
+  height: 340px;
+}
+.us {
+  margin: 0;
+  font-size: 218px;
+}
+.div1,
+.whyUs1 {
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  letter-spacing: 0.14em;
+  line-height: 157px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px #8eb8c6;
+}
+.div1 {
+  top: 100px;
+  left: 317px;
+  font-size: 350px;
+  line-height: 140px;
+}
+.title1 {
+  top: 14px;
+  left: 127px;
+  width: 475px;
+  height: 340px;
+  font-size: 150px;
+}
+.pg2Item,
+.title1,
+.whyUs {
+  position: absolute;
+}
+.whyUs {
+  top: 1558px;
+  left: 0;
+  width: 1440px;
+  height: 863.4px;
+  font-size: 28px;
+  color: var(--color-dimgray-100);
+}
+.pg2Item {
+  top: 73px;
+  left: 189px;
+  width: 556px;
+  height: 251px;
+}
+.welcomeToYour {
+  letter-spacing: 0.02em;
+}
+.span1 {
+  letter-spacing: 0.03em;
+}
+.homeAwayFrom {
+  color: var(--color-khaki);
+}
+.welcomeToYourContainer {
+  position: absolute;
+  top: 142px;
+  left: 189px;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-londrina-solid);
+  filter: drop-shadow(1px 2px 1px #fff);
+}
+.ndPage1 {
+  position: absolute;
+  top: 158px;
+  left: 808px;
+  width: 397px;
+  height: 443px;
+  object-fit: cover;
+}
+.pg2Child1,
+.pg2Inner {
+  position: absolute;
+  border-radius: var(--br-2xs);
+}
+.pg2Inner {
+  top: 631.1px;
+  left: 749.6px;
+  width: 460.3px;
+  height: 113.1px;
+  object-fit: contain;
+}
+.pg2Child1 {
+  top: 641.5px;
+  left: 751.5px;
+  width: 462px;
+  height: 93.5px;
+}
+.your1 {
+  letter-spacing: 0.05em;
+}
+.your {
+  font-size: var(--font-size-6xl);
+}
+.homeAwayFrom1 {
+  font-size: 30px;
+  letter-spacing: 0.02em;
+}
+.furryFriends {
+  color: var(--color-lightsalmon);
+}
+.withYou {
+  color: var(--color-whitesmoke);
+}
+.span5 {
+  color: var(--color-lightcoral);
+}
+.yourHomeAwayContainer {
+  position: absolute;
+  top: 668px;
+  left: 785px;
+  white-space: pre-wrap;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 403px;
+  left: 218px;
+  border-radius: 18px;
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 498px;
+  height: 332px;
+}
+.viewHotelChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(75, 81, 94, 0.3);
+  box-sizing: border-box;
+  width: 136px;
+  height: 136px;
+}
+.hotel1Icon {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  width: 66px;
+  height: 69px;
+  object-fit: cover;
+}
+.hotel,
+.view {
+  margin: 0;
+  letter-spacing: 0.42em;
+}
+.hotel {
+  letter-spacing: 0.14em;
+}
+.viewHotel1 {
+  position: absolute;
+  top: 89px;
+  left: 39px;
+  text-transform: uppercase;
+}
+.viewHotel {
+  text-decoration: none;
+  position: absolute;
+  top: 636px;
+  left: 399px;
+  width: 136px;
+  height: 136px;
+  color: var(--color-dimgray-100);
+}
+.petitePetsParadise2 {
+  position: absolute;
+  top: 446px;
+  left: 249px;
+  letter-spacing: 0.14em;
+  text-align: justify;
+  display: inline-block;
+  width: 435px;
+  height: 312px;
+}
+.pg2 {
+  position: absolute;
+  top: 695px;
+  left: 0;
+  width: 1440px;
+  height: 863px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-manjari);
+}
+.pawPrints1 {
+  position: absolute;
+  top: 1289px;
+  left: 1223px;
+  width: 320.6px;
+  height: 418px;
+  object-fit: contain;
+  opacity: 0.2;
+}
+.picBaseIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 839.25px);
+  width: 1678.5px;
+  height: 694.5px;
+}
+.paw2Icon {
+  position: absolute;
+  top: 112px;
+  left: 315px;
+  width: 377.8px;
+  height: 371.1px;
+  object-fit: contain;
+  opacity: 0.2;
+}
+.emailChild {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-dimgray-100);
+  width: 219px;
+  height: 27px;
+}
+.emailItem,
+.petitepetsparadisegmailcom1 {
+  position: absolute;
+  top: 15.6px;
+  left: 44.1px;
+}
+.emailItem {
+  top: 10.9px;
+  left: 11.4px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 21.3px;
+  height: 21.3px;
+}
+.email,
+.mail2Icon {
+  position: absolute;
+  height: 44px;
+}
+.mail2Icon {
+  top: 0;
+  left: 0;
+  width: 44px;
+  object-fit: cover;
+}
+.email {
+  text-decoration: none;
+  top: 53px;
+  left: 969px;
+  width: 227px;
+  color: inherit;
+}
+.phoneChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-dimgray-100);
+  width: 132px;
+  height: 27px;
+}
+.div2,
+.phoneItem {
+  position: absolute;
+  top: 8.3px;
+  left: 32.8px;
+}
+.phoneItem {
+  top: 2.9px;
+  left: 3.8px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 21.3px;
+  height: 21.3px;
+}
+.phone1Icon {
+  position: absolute;
+  top: 8px;
+  left: 7.2px;
+  width: 12.8px;
+  height: 12.8px;
+  object-fit: cover;
+}
+.phone1 {
+  position: absolute;
+  top: 61px;
+  left: 1217px;
+  width: 132px;
+  height: 27px;
+}
+.aboutUs2,
+.contactUs1,
+.home1,
+.hotels {
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+}
+.home1 {
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-family: var(--font-londrina-solid);
+}
+.aboutUs2,
+.contactUs1,
+.hotels {
+  top: 8.1px;
+  left: 109.1px;
+  display: inline-block;
+  width: 78.9px;
+  height: 20.9px;
+}
+.contactUs1,
+.hotels {
+  left: 249.5px;
+  width: 131.1px;
+  height: 23.2px;
+}
+.hotels {
+  top: 7.7px;
+  left: 407.3px;
+  width: 55.7px;
+  height: 20.9px;
+}
+.paw1Icon {
+  position: absolute;
+  top: calc(50% + 4.7px);
+  left: calc(50% - 245.5px);
+  width: 15.1px;
+  height: 14.3px;
+  object-fit: contain;
+}
+.menuIcon,
+.navigationText {
+  position: absolute;
+  top: 8.7px;
+  left: 491px;
+  width: 22px;
+  height: 11px;
+}
+.navigationText {
+  top: 99.3px;
+  left: 835px;
+  width: 513px;
+  height: 38px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.infoBox {
+  width: 171px;
+  position: absolute;
+  top: 332px;
+  left: 1086px;
+}
+.lookingFor {
+  font-size: var(--font-size-61xl);
+}
+.lookingForA {
+  color: var(--color-black);
+}
+.span7 {
+  color: var(--color-dimgray-100);
+}
+.petFriendly {
+  font-size: var(--font-size-81xl);
+}
+.accommodation {
+  margin: 0;
+  letter-spacing: 0.08em;
+}
+.lookingForAContainer {
+  position: absolute;
+  top: 202px;
+  left: calc(50% - 501.25px);
+  font-family: var(--font-londrina-solid);
+  white-space: pre-wrap;
+  font-size: var(--font-size-61xl);
+  color: var(--color-black);
+}
+.arrownNavigationIcon {
+  position: absolute;
+  top: 183px;
+  left: 1438px;
+  width: 28px;
+  height: 228px;
+}
+.homePageCover1 {
+  top: 490px;
+  left: calc(50% - 703.25px);
+  width: 1430px;
+  height: 340px;
+  object-fit: cover;
+}
+.asset11,
+.home,
+.homePageCover1 {
+  position: absolute;
+}
+.asset11 {
+  top: 34px;
+  left: 344px;
+  width: 308px;
+  height: 103px;
+  object-fit: cover;
+}
+.home {
+  top: 0;
+  left: calc(50% - 846px);
+  width: 1678.5px;
+  height: 830px;
+  font-size: var(--font-size-xs);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-manjari);
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 5098px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-londrina-solid);
+}

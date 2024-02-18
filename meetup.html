@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body,html{
+            font-size: 22px;
+            background-image:url("background.jpg") ;
+            background-size: 100%;
+        }
+        .feedback{
+           
+            position: absolute;
+            border-radius: 20px;
+
+            background-image: url("background_meetup.jpg");
+            background-size: 100%;
+            padding: 20px;
+            
+           
+        }
+        .feed{
+            
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content:flex-start; /* Align the flexbox to the end (right) */
+            align-items: center; /* Center items vertically */
+            height: 80vh;
+        }
+    
+        .dog{
+            position: absolute;
+            height: 80%; /* Set the height to 50% for half size */
+            width: auto; /* Allow the width to adjust proportionally */
+            left: 0;
+        }
+        .vector-up
+        {
+            
+            position: absolute;
+            height: 85%; /* Set the height to 50% for half size */
+            width: auto; /* Allow the width to adjust proportionally */
+            left: 0;
+        }
+        .vector-below{
+            position: absolute;
+            height: 90%; /* Set the height to 50% for half size */
+            width: auto; /* Allow the width to adjust proportionally */
+            left: 0;
+        }
+        .head{
+            top: 70%;
+            left: 10%;
+            position: absolute;
+        }
+        .meet{
+            margin: 0;
+            text-align: center;
+        }
+        @media (min-width: 768px) {
+            /* Adjust styles for tablets and larger screens */
+            .feedback {
+                width: 40%; /* Adjust the width as needed */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="meet">MeetUP</h1>
+    <div class="container">
+       
+       <div class="vectors">
+            <img class="vector-below" src="vector-14.svg">
+            <img class="vector-up" src="vector-15.svg">
+            <img class="dog" src="dog-1@2x.png">
+        </div>
+        <div class="feed">
+    <div class="feedback">
+        <form action="/action_page.php">
+            <label for="name">Name:</label>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
+            <label for="Date">Date:</label>
+            <input type="date" id="date" name="date" ><br><br>
+            <label for="hotel">Hotel:</label>
+            <input type="text" id="hotel" name="hotel" value=""><br><br>
+            <label for="pet">Pet:</label>
+            <input type="text" id="pet" name="pet" value=""><br><br>
+           
+           <button>Register</button>
+        </form>
+    </div>
+    </div>
+    <h1 class="head" >Meet up with other Furry friends</h1> 
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+.picBaseIcon {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 728px);
+    width: 1456px;
+    height: 694px;
+  }
+  .paw2Icon {
+    position: absolute;
+    top: 112px;
+    left: 205px;
+    width: 377.8px;
+    height: 371.1px;
+    object-fit: contain;
+    opacity: 0.2;
+  }
+  .emailChild {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: var(--br-8xl);
+    background-color: var(--color-dimgray);
+    width: 219px;
+    height: 27px;
+  }
+  .petitepetsparadisegmailcom {
+    text-decoration: none;
+    position: absolute;
+    top: 15.6px;
+    left: 44.1px;
+    color: inherit;
+  }
+  .emailItem {
+    position: absolute;
+    top: 10.9px;
+    left: 11.4px;
+    border-radius: 50%;
+    background-color: var(--color-whitesmoke);
+    width: 21.3px;
+    height: 21.3px;
+  }
+  .email,
+  .mail2Icon {
+    position: absolute;
+    height: 44px;
+  }
+  .mail2Icon {
+    top: 0;
+    left: 0;
+    width: 44px;
+    object-fit: cover;
+  }
+  .email {
+    text-decoration: none;
+    top: 53px;
+    left: 859px;
+    width: 227px;
+    color: inherit;
+  }
+  .phoneChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xl);
+    background-color: var(--color-dimgray);
+    width: 132px;
+    height: 27px;
+  }
+  .div,
+  .phoneItem {
+    position: absolute;
+    top: 8.3px;
+    left: 32.8px;
+  }
+  .phoneItem {
+    top: 2.9px;
+    left: 3.8px;
+    border-radius: 50%;
+    background-color: var(--color-whitesmoke);
+    width: 21.3px;
+    height: 21.3px;
+  }
+  .phone1Icon {
+    position: absolute;
+    top: 8px;
+    left: 7.2px;
+    width: 12.8px;
+    height: 12.8px;
+    object-fit: cover;
+  }
+  .phone {
+    position: absolute;
+    top: 61px;
+    left: 1107px;
+    width: 132px;
+    height: 27px;
+  }
+  .aboutUs,
+  .contactUs,
+  .home1,
+  .hotels {
+    text-decoration: none;
+    position: absolute;
+    color: inherit;
+  }
+  .home1 {
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: var(--font-londrina-solid);
+  }
+  .aboutUs,
+  .contactUs,
+  .hotels {
+    top: 8.1px;
+    left: 109.1px;
+    display: inline-block;
+    width: 78.9px;
+    height: 20.9px;
+  }
+  .contactUs,
+  .hotels {
+    left: 249.5px;
+    width: 131.1px;
+    height: 23.2px;
+  }
+  .hotels {
+    top: 7.7px;
+    left: 407.3px;
+    width: 55.7px;
+    height: 20.9px;
+  }
+  .paw1Icon {
+    position: absolute;
+    top: calc(50% + 4.7px);
+    left: calc(50% - 245.5px);
+    width: 15.1px;
+    height: 14.3px;
+    object-fit: contain;
+  }
+  .menuIcon,
+  .navigationText {
+    position: absolute;
+    top: 8.7px;
+    left: 491px;
+    width: 22px;
+    height: 11px;
+  }
+  .navigationText {
+    top: 99.3px;
+    left: 725px;
+    width: 513px;
+    height: 38px;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray);
+  }
+  .infoBox {
+    width: 171px;
+    position: absolute;
+    top: 332px;
+    left: 976px;
+  }
+  .lookingFor {
+    font-size: var(--font-size-61xl);
+  }
+  .span {
+    font-size: var(--font-size-81xl);
+  }
+  .lookingForA {
+    color: var(--color-black);
+  }
+  .petFriendly1 {
+    color: #fa9189;
+  }
+  .span1 {
+    color: var(--color-dimgray);
+  }
+  .lookingForAPetFriendly {
+    margin: 0;
+  }
+  .accommodation {
+    margin: 0;
+    letter-spacing: 0.08em;
+  }
+  .lookingForAContainer {
+    position: absolute;
+    top: 202px;
+    left: calc(50% - 500px);
+    font-family: var(--font-londrina-solid);
+    white-space: pre-wrap;
+    font-size: var(--font-size-61xl);
+    color: var(--color-black);
+  }
+  .arrownNavigationIcon {
+    position: absolute;
+    top: 183px;
+    left: 1328px;
+    width: 28px;
+    height: 228px;
+  }
+  .asset11,
+  .homePageCover1 {
+    position: absolute;
+    object-fit: cover;
+  }
+  .homePageCover1 {
+    top: 490px;
+    left: calc(50% - 702px);
+    width: 1430px;
+    height: 340px;
+  }
+  .asset11 {
+    top: 34px;
+    left: 234px;
+    width: 308px;
+    height: 103px;
+  }
+  .home {
+    width: 100%;
+    position: relative;
+    height: 830px;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-whitesmoke);
+    font-family: var(--font-manjari);
+  }
+  
